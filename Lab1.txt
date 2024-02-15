@@ -1,0 +1,73 @@
+3Lab 1:
+1. Check if your processor supports Intel/AMD virtualization technology. Enable Intel virtualization technology in BIOS if possible.
+2. The cloud is almost everywhere in our lives now. What do you think are the fundamental reasons behind its success? Name three pros and three cons of cloud.
+
+Reasons Behind Cloud Success:
+Scalability: Easily adjusts resources based on demand.
+Cost Efficiency: Reduces capital expenditure with a pay-as-you-go model.
+Accessibility: Enables remote access and collaboration globally.
+
+Pros of Cloud Computing:
+Convenience: Access data from anywhere.
+Automatic Updates: Ensures up-to-date software and security.
+Disaster Recovery: Offers data backup and recovery solutions.
+
+Cons of Cloud Computing:
+Security Risks: Potential for data breaches and cyber attacks.
+Dependence on Internet: Requires a stable internet connection.
+Limited Control: Users have less control over infrastructure and software updates.
+
+3. What is the primary function of a hypervisor in virtualization?
+
+The primary function of a hypervisor is to create and manage virtual machines by allocating a computer's physical resources, like CPU and memory, to each VM, allowing multiple operating systems to run simultaneously on a single physical machine.
+
+4. What is a virtual machine (VM)?
+A virtual machine (VM) is a software emulation of a physical computer that runs an operating system and applications, just like a physical computer. It operates independently within a host system, using virtualized hardware resources.
+
+5. What are the benefits of using virtual machines?
+
+Benefits of using virtual machines include:
+
+Isolation: Each VM operates independently, ensuring that problems in one VM do not affect others.
+Resource Efficiency: Allows for better utilization of physical hardware resources.
+Flexibility: Easy to create, clone, and move VMs across physical machines.
+Testing and Development: Provides a safe environment for testing without affecting the host system.
+Compatibility: Runs multiple operating systems and applications on the same physical hardware.
+
+6. List five use cases of virtual machines.
+Software Development and Testing: Allows developers to create and test applications in various environments without affecting the host system.
+Server Consolidation: Combines multiple physical servers into fewer machines by running several VMs on each, reducing hardware and maintenance costs.
+Disaster Recovery: Facilitates quick recovery by moving VMs to another physical server in case of hardware failure or disasters.
+Cloud Computing: Powers cloud services by offering scalable, on-demand virtual resources to users.
+Legacy Application Support: Enables older applications to run on newer hardware by simulating legacy operating environments within VMs.
+
+7. In virtualization, what is the guest operating system?
+a) The main operating system running on the physical machine
+b) The operating system installed on a virtual machine
+c) The operating system running on a remote server
+d) The operating system running on a mobile device
+
+The correct answer is:
+b) The operating system installed on a virtual machine
+
+8. What does virtual machine isolation mean?
+a) Virtual machines can communicate directly with the physical hardware.
+b) Virtual machines share the same resources and cannot be isolated.
+c) Virtual machines run independently and are isolated from each other and the host system.
+d) Virtual machines can only be accessed locally.
+
+The correct answer is:
+c) Virtual machines run independently and are isolated from each other and the host system.
+
+9. What is the benefit of virtual machine portability?
+a) It allows virtual machines to communicate with each other easily.
+b) It ensures faster boot times for virtual machines.
+c) It allows virtual machines to be moved between different physical machines with compatible hypervisors.
+d) It reduces the need for hardware virtualization.
+
+The correct answer is:
+c) It allows virtual machines to be moved between different physical machines with compatible hypervisors.
+
+10. What is the purpose of cloning a virtual machine?
+
+The purpose of cloning a virtual machine is to create an exact copy of the VM, including its operating system, installed software, and data. This is useful for quickly deploying multiple instances of the same configuration, testing, backup, or for development purposes where a consistent and repeatable environment is needed.
